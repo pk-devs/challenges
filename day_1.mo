@@ -4,26 +4,26 @@ import Nat "mo:base/Nat";
 
 actor {
 
-  // Challenge 1 - checked and works!
+  // Challenge 1 - checked and works! :) 
 
   public func add (n : Nat, m : Nat) : async Nat {
   return(n + m);
 
   };
 
-// Challenge 2 - checked and works! 
+// Challenge 2 - checked and works! :)
 
 public func square (n : Nat) : async Nat {
   return(n * n);
 };
 
-// Challenge 3 - checked and works!
+// Challenge 3 - checked and works! :) 
 
 public func days_to_second ( n : Nat) : async Nat {
   return (n * 86400);
 };
 
-// Challenge 4 - checked and works!
+// Challenge 4 - checked and works! :) 
 
 var counter : Nat = 0;
 public func increment_counter(n : Nat) : async Nat {
@@ -36,7 +36,7 @@ public func clear_counter() : async Nat {
   return(counter);
 };
 
-// Challenge 5 - 
+// Challenge 5 - Needs rechecking 
 
 let a : Bool = true;
 let b : Bool = false;
@@ -51,7 +51,7 @@ public func divide(n : Nat, m : Nat) : async Bool {
 };
 };
 
-// Challenge 6 - checked and works! 
+// Challenge 6 - checked and works! :)
 
 
 
@@ -63,7 +63,7 @@ public func is_even (n : Nat) : async Bool {
     }
 };
 
-// Challenge 7 - checked and works! 
+// Challenge 7 - checked and works! :) 
 
 public func sum_of_array(array : [Nat] ) : async Nat {
   if(array.size() == 0) {
@@ -78,7 +78,7 @@ return (counter);
 
 };
 
-// Challenge 8 : Write a function maximum that takes an array of natural numbers and returns the maximum value in the array. This function will returns 0 if the array is empty.
+// Challenge 8 - Haven't checked - cannot deploy canister, troubleshoot
 
 
 // check base library and use function "sort"
@@ -96,7 +96,7 @@ public func test() : async () {
 
 
 
-// Challenge 9 : Write a function remove_from_array that takes 2 parameters : an array of natural numbers and a natural number n and returns a new array where all occurences of n have been removed (order should remain unchanged).
+// Challenge 9 - Haven't checked - cannot deploy canister, troubleshoot
 
 public func remove_from_array (array1 : [Nat], n : Nat) : async [Nat] {
   var xs : [Nat] = Array.filter(array1, func(m: Nat) : Bool { n != m });
@@ -105,6 +105,6 @@ public func remove_from_array (array1 : [Nat], n : Nat) : async [Nat] {
 };
 
 
-// Challenge 10 - 
+// Challenge 10 - I have been focusing on learning the fundamentals first before even giving this one a try, I hope that is okay. 
 
 
