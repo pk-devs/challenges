@@ -105,6 +105,6 @@ public func remove_from_array (array1 : [Nat], n : Nat) : async [Nat] {
 };
 
 
-// Challenge 10 - I have been focusing on learning the fundamentals first before even giving this one a try, I hope that is okay. 
+// Challenge 10 - I have been focusing on really understanding the other challenges first before even giving this one a try, let me know if you need me to take a shot at it!  
 
 
