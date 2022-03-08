@@ -11,10 +11,14 @@ actor {
 let from Nat : Nat -> Nat8 
 
 public func nat_to_nat8(n : Nat ) : async Nat8 {
-    return(Nat8.fromNat(n));
+    if(n > 255) {  // <--updated after devs hour, not part of orgin code.
+        return 0; // you can specify any number here... just to return anything and not trap
+    }
+        return(Nat8.fromNat(n));
 
 };
 
+// Nat 8 : Stored on 8 bits (a byte) can only store nombers between 0 - 255
 
 
 /* Challenge 2 : Write a function max_number_with_n_bits that takes a Nat n and returns the 
