@@ -1,37 +1,20 @@
 {
-    "canisters": {
-      "day_1": {
-        "type": "motoko",
-        "main": "day_1.mo"
-      },
-
-        "day_2": {
-          "type": "motoko",
-          "main": "day_2.mo"
-        },
-
-        "day_3": {
-          "type": "motoko",
-          "main": "day_3.mo"
-        
-        },
-          "day_4": {
-            "type": "motoko",
-            "main": "day_4.mo"
-   
-          },
-    "defaults": {
-      "build": {
-        "args": "",
-        "packtool": ""
-      }
+  "canisters": {
+    "day_1": {
+      "type": "motoko",
+      "main": "day_1.mo"
     },
-    "dfx": "0.9.2",
-    "networks": {
-      "local": {
-        "bind": "127.0.0.1:8000",
-        "type": "ephemeral"
-      }
+    "day_2": {
+      "type": "motoko",
+      "main": "day_2.mo"
     },
-    "version": 1
+    "day_3": {
+      "type": "motoko",
+      "main": "day_3.mo"
+    }, 
+    "day_4": {
+      "type": "motoko",
+      "main": "day_4.mo"
+    }
   }
+}

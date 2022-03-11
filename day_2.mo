@@ -33,7 +33,6 @@ public func max_number_with_n_bits(n : Nat ) : async Nat {
 };
 
 
-
 /* Challenge 3 : Write a function decimal_to_bits that takes a Nat n and returns a Text 
                  corresponding to the binary representation of this number.
                  Note : decimal_to_bits(255) -> "11111111".

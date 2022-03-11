@@ -26,7 +26,7 @@ let diana : Angel {
 
 
 public func angel_name() : async Text {
-  return (Diana.name);
+  return (diana.name);
 };
 
 public func angel_power() : async Nat {
@@ -100,7 +100,15 @@ list that stores animal.
 public type store_animal_list = ?(Animal : List<Animal>);
   var store : List<Animal> = List.nil<Animal>(); 
 
+/* from DEv hour
+list := List.push<Nat>(10, list); 
+list := List.push<Nat>(20, list); 
 
+public func test () : async ?Nat {
+  return(List.last<Nat>(list))
+}
+
+*/ 
 
 
 
