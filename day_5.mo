@@ -54,6 +54,11 @@ public func add_favorite_number (n : Nat) : () {
 
 public func show_favorite_number() : async ?Nat {
     return(favoriteNumer.get(Principal.fromText("2vxsx-fae")));
+    if ( tmp == 0) {
+        return(Null); // how to return null? 
+    } else {
+
+    }
 
 
 
@@ -69,9 +74,10 @@ registered your number" in that case and "You've successfully registered your nu
 public func add_favorite_number (n : Nat) : async ?Text {
     var tmp : ?Nat = favoriteNumber.get(anonymous_principal); 
     if(tmp == n) {
-        return("You've already registered your number"); 
+        return?("You've already registered your number"); 
     } else {
         favoriteNumber.put(anonymous_principal, n);
+    return ?("You've successfully registered your number");
     };
 };
 
