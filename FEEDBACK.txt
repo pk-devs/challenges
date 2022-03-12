@@ -1,0 +1,28 @@
+Hey! 
+First, let me say thank you for the opportunity to attend this bootcamp! You have done a great job and I am very grateful for your time and patience, thank you very much! 
+
+I think you have done a great job and I would like to help IC and Motoko so more people can join and learn. Here are some of my insights from being a super beginner student at Motoko Bootcamp 2022. 
+
+1) Pre bootcamp , bootcamp (for extreme beginners like me)
+    - Using terminal 
+    - Github (Make sure to include Seb's 7 minute video, very useful information) 
+    - General computer sience (CS50 course video helped me alot)
+    - As you can see, my code is chaotic because I am learning how to keep it tidy as I go, maybe a quick 15 min intro on how to structure code? 
+    - dfx deploy 
+
+2) 4 week long Bootcamp , join at your level. 
+
+3) For beginners: mid bootcamp HTML, CSS crash course
+    - I did this on thursday the 10th of the course for my core project. Sure I spent too many hours on it but it gave me a lot of motivation when I say I managed pretty quickly to code HTML and CSS. Great confident booster before taking on implementing Stoic wallet for example.
+
+
+TO DO: 
+
+1) Image gallery with link provided under! Check w3 school Image Gallery! 
+2) CSS for the image gallery 
+3) CSS for #greeting message 
+4) Create one more function that is coool 
+    - transfer nft? 
+    - check what nfts a principal owns? 
+    - add counter of NFT minted? 
+    - 
